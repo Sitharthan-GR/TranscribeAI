@@ -42,8 +42,9 @@ def generate_subtitle_file(video_file, output_file):
     subtitles = generate_subtitles(audio_file)   
     save_subtitles(subtitles, output_file)
     os.remove(audio_file)
+    
 
 
-video_file = "./Video 4 - Krista Farmer Project Manager.mp4"
-output_file = "Video 4 - Krista Farmer Project Manager.srt"
-generate_subtitle_file(video_file, output_file)
+# video_file = "./Video 4 - Krista Farmer Project Manager.mp4"
+# output_file = "Video 4 - Krista Farmer Project Manager.srt"
+# generate_subtitle_file(video_file, output_file)

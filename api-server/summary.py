@@ -23,5 +23,5 @@ def summarize_video(video_path):
     summary = summarize_text(transcription)
     return summary
 
-video_summary = summarize_video("/Users/sidhu/Documents/PartTime-job/ALT MEDIA/Fall2024/Video 3 - Jonathan Greyson, Intel.mov")
-print(video_summary)
+# video_summary = summarize_video("/Users/sidhu/Documents/PartTime-job/ALT MEDIA/Fall2024/Video 3 - Jonathan Greyson, Intel.mov")
+# print(video_summary)
